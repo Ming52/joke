@@ -3,7 +3,6 @@ import pandas as pd
 from fastai.tabular.all import *
 from fastai.collab import *
 
-@st.cache_data
 def load_data():
     data_df = pd.read_excel('[final] April 2015 to Nov 30 2019 - Transformed Jester Data - .xlsx',
                             header=None,
